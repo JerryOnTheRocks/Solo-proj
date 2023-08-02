@@ -1,0 +1,5 @@
+//a preset is a set of plug-ins used to support features of particular languages, for babel default is es2015, react
+{
+	"presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-transform-runtime"]//allows babel's code transformation 
+}
